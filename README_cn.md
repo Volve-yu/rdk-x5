@@ -22,8 +22,6 @@ SHUTDOWN: 关闭系统
 项目结构
 rdk_vision_system/ ├── config.py # 配置文件 ├── main.py # 主程序 ├── *_module.py # 各功能模块 ├── models/ # 模型文件 ├── data/ # 数据存储 ├── captured_images/ # 拍摄图片 └── recordings/ # 录像文件
 
-Markdown 复制
-
 配置说明
 主要配置在 中，包括：config.py
 
@@ -36,7 +34,6 @@ Markdown 复制
 串口连接失败：确认串口设备路径和权限
 音频播放失败：检查音频设备和音量设置
 ONNX模型加载失败：确认模型文件存在且格式正确 完整的部署命令 在你的RDK开发板上执行：
-重击 复制
 
 1. 创建项目目录
 cd /home/ubuntu mkdir rdk_vision_system CD rdk_vision_system
